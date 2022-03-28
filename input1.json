@@ -1,0 +1,42 @@
+{
+  "horizontalForce": 100,
+  "bendingMoment": 20,
+  "verticalForce": 20,
+  "boundaryConditionIndex": 1,
+  "numberOfElements": 1,
+  "loadIncrement": 1,
+  "pileLength": 12,
+  "pileHead": 0,
+  "horizontalOffset": 0.2,
+  "securityCalculation": {
+    "isEnabled": true,
+    "securityLengthCoefficient": 1.2
+  },
+  "stiffnessWidthSettings": {
+    "isVariable": false,
+    "youngModulus": 20000000,
+    "inertia": 0.0030679615757712823,
+    "width": 0.5,
+    "secondaryYoungModulus": 0,
+    "secondaryInertia": 0,
+    "secondaryWidth": 0,
+    "secondaryPileLength": 0
+  },
+  "numberOfGroundLayers": 3,
+  "groundHeight": 0,
+  "groundLayerBases": [-3, -8, -20],
+  "kf1": [5000, 8000, 12000],
+  "kf2": [2500, 6000, 6000],
+  "p1": [500, 1500, 3000],
+  "p2": [750, 2000, 4500],
+  "gammas": [[1, 1, 1, 1], [1, 1, 1, 1]],
+  "slopeEffect": {
+    "isEnabled": true,
+    "angle": 45,
+    "distance": 2
+  },
+  "groundSurfaceEffect": {
+    "isEnabled": true,
+    "groundSurfaceTypeIndex": 1
+  }
+}
